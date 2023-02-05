@@ -347,7 +347,7 @@ footer div ul li{
     margin-bottom: .75rem;
 }
 /* tablette  */
-@media  screen and (min-width: 769px) and (max-width: 992px) {
+@media  screen and (min-width: 768px) and (max-width: 992px) {
     #filtres{
         width: 100%;
         gap: 0;
@@ -397,7 +397,7 @@ footer div ul li{
     }
 }
 /* mobile */
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 767px) {
     body{
         margin: 0;
     }
@@ -428,6 +428,15 @@ footer div ul li{
     #filtres h2, #info, #hebergements h2{
         margin-left: 1.25rem;
     }
+    form input{
+        width: 60%;
+        max-width: 14.5rem;
+    }
+    form button{
+        width: 17%;
+        max-width: 3.125rem;
+        padding: 0;
+    }
     form button span{
         display: none;
     }
@@ -451,11 +460,11 @@ footer div ul li{
         margin-left: 1.25rem;
     }
     #filtres a{
-        font-size: .6875rem;
+        font-size: .6rem;
         width: 40%;
         max-width: 10.3125rem;
         margin-top: .625rem;
-        padding: 0.6rem 0rem 0.6rem 1.0625rem;
+        padding: 0.6rem 0rem 0.6rem 0.7rem;
     }
     #filtres span{
         margin: 0;
@@ -491,7 +500,7 @@ footer div ul li{
     #hebergement-cards a{
         height: 12.4375rem;
         width: 100%;
-        max-width: 20.9375rem;
+        max-width: 47.9375rem;
     }
     #hebergement-footer{
         display: none;
@@ -532,5 +541,3 @@ footer div ul li{
     footer div ul{
         margin-top: .625rem;
     }
-}
-/* header nav div a:nth-last-child(1) */
